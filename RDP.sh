@@ -28,11 +28,8 @@ su - ALOK -c """$CRP"""
 printf 'Check https://remotedesktop.google.com/access/ \n'
 printf 'Your SUDO Pasword Is 2520 \n\n\n'
 printf 'Upgrading... \n\n'
-apt -y install obs-studio
-apt -y install firefox
-wget https://media.codeweavers.com/pub/crossover/cxlinux/demo/crossover_20.0.2-1.deb
-sudo dpkg -i crossover_20.0.2-1.deb
-sudo apt install --assume-yes --fix-broken
+sudo apt -y install obs-studio
+sudo apt -y install firefox
 if sudo apt-get upgrade &> /dev/null
 then
     printf "\n\nUpgrade Completed " >&2
