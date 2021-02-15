@@ -28,10 +28,10 @@ su - ALOK -c """$CRP"""
 printf 'Check https://remotedesktop.google.com/access/ \n'
 printf 'Your SUDO Pasword Is 2520 \n\n\n'
 printf 'Upgrading... \n\n'
-sudo apt -y install obs-studio
-sudo apt -y install firefox
 if sudo apt-get upgrade &> /dev/null
 then
+    sudo apt -y install obs-studio
+    sudo apt -y install firefox
     printf "\n\nUpgrade Completed " >&2
 else
     printf "\n\nError Occured " >&2
