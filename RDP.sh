@@ -26,7 +26,7 @@ printf '\nCheck https://remotedesktop.google.com/headless  Copy Command Of Debia
 read -p "Paste Here: " CRP
 su - ALOK -c """$CRP"""
 printf 'Check https://remotedesktop.google.com/access/ \n'
-printf 'Your SUDO Pasword Is (8x9x5x7) Multiply It \n\n\n'
+printf 'Your SUDO Pasword Is 2520 \n\n\n'
 printf 'Upgrading... \n\n'
 if sudo apt-get upgrade &> /dev/null
 then
