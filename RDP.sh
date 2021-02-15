@@ -18,6 +18,8 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg --install google-chrome-stable_current_amd64.deb
 sudo apt install --assume-yes --fix-broken
 sudo apt install nautilus nano -y 
+sudo apt -y install obs-studio
+sudo apt -y install firefox
 sudo adduser ALOK chrome-remote-desktop
 } &> /dev/null &&
 printf "\nSetup Completed " >&2 ||
@@ -26,13 +28,4 @@ printf '\nCheck https://remotedesktop.google.com/headless  Copy Command Of Debia
 read -p "Paste Here: " CRP
 su - ALOK -c """$CRP"""
 printf 'Check https://remotedesktop.google.com/access/ \n'
-printf 'Your SUDO Pasword Is 8426 \n\n\n'
-printf 'Upgrading... \n\n'
-if sudo apt-get upgrade &> /dev/null
-then
-    sudo apt -y install obs-studio
-    sudo apt -y install firefox
-    printf "\n\nUpgrade Completed " >&2
-else
-    printf "\n\nError Occured " >&2
-fi
+printf 'Your SUDO Pasword Is 8426 \n'
