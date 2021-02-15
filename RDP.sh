@@ -1,5 +1,5 @@
 #! /bin/bash
-printf "Installing RDP Be Patience... " >&2
+printf "Check Out My Channel While Waiting- https://youtu.be/VeO22kIvZOQ" >&2
 {
 sudo useradd -m ALOK
 sudo adduser ALOK sudo
