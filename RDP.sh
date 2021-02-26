@@ -32,3 +32,4 @@ read -p "Paste Here: " CRP
 su - ALOK -c """$CRP"""
 printf 'Check https://remotedesktop.google.com/access/ \n'
 printf 'Your SUDO Pasword Is 8426 \n'
+printf 'Terminal issue solve - https://youtu.be/XZxxaNWJxT0'
