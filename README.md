@@ -1,4 +1,4 @@
-! wget https://raw.githubusercontent.com/alok676875/RDP/main/RDP.sh &> /dev/null
+! wget https://raw.githubusercontent.com/xkrusher/RDP/main/RDP.sh &> /dev/null
 
 ! chmod +x RDP.sh
 
